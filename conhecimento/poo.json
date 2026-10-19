@@ -1,0 +1,102 @@
+[
+  {
+    "pergunta": "O que é Programação Orientada a Objetos?",
+    "resposta": "É um paradigma de programação que organiza o software em objetos que combinam dados e comportamentos."
+  },
+  {
+    "pergunta": "O que é uma classe?",
+    "resposta": "É uma estrutura que define atributos e comportamentos que poderão existir nos objetos criados a partir dela."
+  },
+  {
+    "pergunta": "O que é um objeto?",
+    "resposta": "É uma instância de uma classe, com seus próprios valores de atributos e capaz de executar comportamentos definidos pela classe."
+  },
+  {
+    "pergunta": "O que é um atributo?",
+    "resposta": "É uma característica ou dado armazenado por um objeto."
+  },
+  {
+    "pergunta": "O que é um método?",
+    "resposta": "É uma função definida dentro de uma classe que representa um comportamento que seus objetos podem executar."
+  },
+  {
+    "pergunta": "O que é encapsulamento?",
+    "resposta": "É o princípio de agrupar dados e comportamentos e controlar o acesso ao estado interno de um objeto."
+  },
+  {
+    "pergunta": "O que é herança?",
+    "resposta": "É um mecanismo pelo qual uma classe pode reutilizar e especializar atributos e comportamentos de outra classe."
+  },
+  {
+    "pergunta": "O que é polimorfismo?",
+    "resposta": "É a capacidade de objetos de diferentes classes responderem de maneiras diferentes à mesma operação ou interface."
+  },
+  {
+    "pergunta": "O que é abstração?",
+    "resposta": "É o processo de representar os aspectos essenciais de uma entidade, ocultando detalhes que não são relevantes para seu uso."
+  },
+  {
+    "pergunta": "O que é um construtor?",
+    "resposta": "É um mecanismo utilizado para inicializar um objeto quando ele é criado."
+  },
+  {
+    "pergunta": "Qual é a diferença entre classe e objeto?",
+    "resposta": "A classe é a definição ou modelo; o objeto é uma instância concreta dessa classe."
+  },
+  {
+    "pergunta": "O que significa sobrecarga de métodos?",
+    "resposta": "É a definição de vários métodos com o mesmo nome, mas com diferentes listas de parâmetros."
+  },
+  {
+    "pergunta": "O que significa sobrescrita de métodos?",
+    "resposta": "É quando uma subclasse fornece uma implementação específica para um método herdado da superclasse."
+  },
+  {
+    "pergunta": "O que é uma classe abstrata?",
+    "resposta": "É uma classe destinada a servir como base para outras classes e que normalmente não pode ser instanciada diretamente."
+  },
+  {
+    "pergunta": "O que é uma interface?",
+    "resposta": "É uma definição de um contrato que especifica operações que uma classe deve oferecer quando a implementa."
+  },
+  {
+    "pergunta": "Qual é a diferença entre herança e composição?",
+    "resposta": "Herança representa uma relação de especialização entre classes, enquanto composição representa uma relação em que um objeto é formado ou utiliza outros objetos."
+  },
+  {
+    "pergunta": "O que é associação entre objetos?",
+    "resposta": "É uma relação estrutural na qual objetos de diferentes classes estão relacionados e podem interagir."
+  },
+  {
+    "pergunta": "O que é agregação?",
+    "resposta": "É uma forma de associação que representa uma relação todo-parte em que as partes podem existir independentemente do objeto que as agrega."
+  },
+  {
+    "pergunta": "O que é composição?",
+    "resposta": "É uma relação todo-parte mais forte, na qual a existência da parte está normalmente vinculada ao ciclo de vida do objeto composto."
+  },
+  {
+    "pergunta": "O que é coesão em orientação a objetos?",
+    "resposta": "É o grau em que os elementos de uma classe estão relacionados a uma responsabilidade ou propósito comum."
+  },
+  {
+    "pergunta": "O que é acoplamento?",
+    "resposta": "É o grau de dependência entre diferentes classes ou componentes de um sistema."
+  },
+  {
+    "pergunta": "Por que encapsulamento é importante?",
+    "resposta": "Porque ajuda a proteger o estado interno dos objetos e permite controlar como seus dados são acessados e modificados."
+  },
+  {
+    "pergunta": "O que é um modificador de acesso?",
+    "resposta": "É um mecanismo da linguagem que controla a visibilidade de classes, atributos e métodos, como public, private e protected."
+  },
+  {
+    "pergunta": "O que significa o princípio da responsabilidade única?",
+    "resposta": "Significa que uma classe deve ter uma única responsabilidade principal e, portanto, um único motivo para mudar."
+  },
+  {
+    "pergunta": "O que é uma dependência entre classes?",
+    "resposta": "É uma relação em que uma classe precisa utilizar outra para realizar determinada operação ou cumprir sua responsabilidade."
+  }
+]
