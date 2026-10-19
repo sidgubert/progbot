@@ -47,13 +47,13 @@ def buscar_cache(pergunta, modelo_cache, colecao_cache):
             include = ["metadatas", "distances"]
         )
 
-        distancias = resultados["distances"][0]
-        metadados = resultados["metadatas"][0]
+        distancias = resultados.get("distances", [[]])[0]
+        metadados = resultados.get("metadatas", [[]])[0]
 
-        distancia = distancias[0]
-        resposta = metadados[0].get("resposta")
-
-        encontrada = resposta is not None and distancia <= LIMIAR_DISTANCIA_CACHE
+        if distancias and metadados:
+            distancia = distancias[0]
+            resposta = metadados[0].get("resposta")
+            encontrada = resposta is not None and distancia <= LIMIAR_DISTANCIA_CACHE
     except Exception as e:
         print(f"ocorreu um erro consultando o cache semântico: {str(e)}")
 
